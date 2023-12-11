@@ -1,0 +1,36 @@
+body {
+    line-height: 2;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color:aliceblue;
+}
+
+h1 {
+    color: rgb(105, 108, 255);
+    border-bottom: dotted;
+    border-color: blueviolet;
+}
+
+h2	{
+    font-style: italic;
+    font-weight: bold;
+}
+
+.titulo {
+    color: grey;
+    font-weight: bold;
+}
+ul {
+    border: 5px solid rgba(0, 0, 255, 0.833);
+    border-radius: 20px;
+    background-color: cornsilk;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+a {
+    color:black
+}
+a:hover {
+    color: green;
+    text-decoration: none;
+}

@@ -1,0 +1,64 @@
+body {
+    background-color: greenyellow;
+    /*background: red url(bg-graphic.png) 10px 10px repeat-x fixed;*/
+    line-height: 2;
+}
+
+@media (max-width: 768px) {
+    body {
+        background-color: blanchedalmond;
+    }
+}
+
+li {
+    text-transform: uppercase;
+}
+.segundo {
+    color: rgb(143, 255, 31);
+    font-weight: bold;
+}
+
+a:link {
+    color: yellowgreen;
+}
+a:visited {
+    color: blue;
+}
+
+a:hover {
+    text-decoration: none;
+}
+/*body h1 + p {
+  color: yellow;
+  background-color: black;
+  padding: 5px;
+}*/
+.special {
+    color: red;
+  }
+  
+  p {
+    color: blue;
+  }
+
+  .caja {
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-color: brown;
+    transform: rotate(.12turn);
+  }
+  
+  .exterior {
+    border: 2px solid yellowgreen;
+  }
+
+  .interior {
+    padding: 10px;
+    width: calc(20%);
+    background-color: brown;
+    color: bisque;
+  }
